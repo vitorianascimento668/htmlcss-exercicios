@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th{
+            font-weight: bolder;
+            font-size: 1.5em;
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+            text-align: justify;
+        }
+        .verde{
+            background-color: aqua;
+        }
+        .grupo {
+            background-color: yellow;
+        }
+        .azul{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="verde">
+            <col class="azul">
+            <col class="grupo" span="2">
+            
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Claudio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Elias</td>
+                <td>M</td>
+                <td>36</td>
+                <td>Empresario</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>F</td>
+                <td>33</td>
+                <td>Musica</td>
+            </tr>
+            <tr>
+                <td>Vitória</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Engenheira de Software</td>
+            </tr>
+            <tr>
+                <td>Nicolas</td>
+                <td>M</td>
+                <td>14</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Dalva</td>
+                <td>F</td>
+                <td>45</td>
+                <td>Enfemeira</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
